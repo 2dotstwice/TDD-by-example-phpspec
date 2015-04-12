@@ -8,11 +8,11 @@ class Dollar
 
     public function __construct($amount)
     {
-        $this->amount = 5 * 2;
+
     }
 
     public function times($multiplier)
     {
-        // TODO: write logic here
+        $this->amount = 5 * 2;
     }
 }
