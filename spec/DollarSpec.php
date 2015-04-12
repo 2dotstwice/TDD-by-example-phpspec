@@ -19,4 +19,10 @@ class DollarSpec extends ObjectBehavior
         $product = $this->times(3);
         $product->amount->shouldBe(15);
     }
+
+    function it_equals_another_dollar_with_the_same_amount()
+    {
+        $this->beConstructedWith(5);
+        $this->shouldBeLike(new Dollar(5));
+    }
 }
