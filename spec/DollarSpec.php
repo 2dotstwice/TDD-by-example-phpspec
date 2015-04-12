@@ -14,7 +14,9 @@ class DollarSpec extends ObjectBehavior
     function it_multiplies()
     {
         $this->beConstructedWith(5);
-        $this->times(2);
-        $this->amount->shouldBe(10);
+        $product = $this->times(2);
+        $product->amount->shouldBe(10);
+        $product = $this->times(3);
+        $product->amount->shouldBe(15);
     }
 }
