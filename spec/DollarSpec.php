@@ -24,5 +24,6 @@ class DollarSpec extends ObjectBehavior
     {
         $this->beConstructedWith(5);
         $this->shouldBeLike(new Dollar(5));
+        $this->shouldNotBeLike(new Dollar(6));
     }
 }
