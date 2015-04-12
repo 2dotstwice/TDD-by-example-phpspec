@@ -10,7 +10,7 @@ class Dollar
         // TODO: write logic here
     }
 
-    public function times($argument1)
+    public function times($multiplier)
     {
         // TODO: write logic here
     }
