@@ -5,7 +5,7 @@ namespace WyCash\WyCash;
 class Dollar
 {
 
-    public function __construct($argument1)
+    public function __construct($amount)
     {
         // TODO: write logic here
     }
