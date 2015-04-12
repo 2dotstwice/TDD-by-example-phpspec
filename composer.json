@@ -11,5 +11,10 @@
             "email": "kristof@2dotstwice.be"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "WyCash\\WyCash\\": "src"
+        }
+    }
 }

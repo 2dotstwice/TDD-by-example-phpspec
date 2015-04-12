@@ -1,0 +1,4 @@
+suites:
+    wycash_suite:
+        namespace: WyCash\WyCash
+        psr4_prefix: WyCash\WyCash
