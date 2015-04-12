@@ -11,9 +11,13 @@ use WyCash\WyCash\Dollar;
  */
 class DollarSpec extends ObjectBehavior
 {
-    function it_multiplies()
+    function let()
     {
         $this->beConstructedWith(5);
+    }
+
+    function it_multiplies()
+    {
         $product = $this->times(2);
         $product->amount->shouldBe(10);
         $product = $this->times(3);
@@ -22,7 +26,6 @@ class DollarSpec extends ObjectBehavior
 
     function it_equals_another_dollar_with_the_same_amount()
     {
-        $this->beConstructedWith(5);
         $this->shouldBeLike(new Dollar(5));
         $this->shouldNotBeLike(new Dollar(6));
     }
