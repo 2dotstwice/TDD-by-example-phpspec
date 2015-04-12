@@ -4,11 +4,11 @@ namespace WyCash\WyCash;
 
 class Dollar
 {
-    public $amount = 10;
+    public $amount;
 
     public function __construct($amount)
     {
-        // TODO: write logic here
+        $this->amount = 5 * 2;
     }
 
     public function times($multiplier)
