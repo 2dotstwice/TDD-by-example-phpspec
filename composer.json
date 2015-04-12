@@ -1,0 +1,15 @@
+{
+    "name": "2dotstwice/tdd-by-example-phpspec",
+    "description": "Examples from the book Test Driven Development by Example (Kent Beck), with phpspec",
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
+    },
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Kristof Coomans",
+            "email": "kristof@2dotstwice.be"
+        }
+    ],
+    "minimum-stability": "stable"
+}
