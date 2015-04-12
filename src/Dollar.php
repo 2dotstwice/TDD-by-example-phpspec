@@ -4,6 +4,7 @@ namespace WyCash\WyCash;
 
 class Dollar
 {
+    public $amount;
 
     public function __construct($amount)
     {
